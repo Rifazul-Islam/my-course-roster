@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Cards from "../Cards/Cards";
 import Carts from "../Carts/Carts";
+import toast from "react-hot-toast";
 
 const Main = () => {
 
@@ -10,7 +11,7 @@ const Main = () => {
    let isExit = courseSelect.find(item => item.id === id)
 
     if(isExit){
-      return alert('Name is already Select')
+      return toast.error('Name is already Add')
     }else{
       setCourseSelect([...courseSelect,course])
     }
