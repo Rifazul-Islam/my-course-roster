@@ -3,7 +3,7 @@ import Carts from "../Carts/Carts";
 
 const Main = () => {
 return (
-<div className="md:flex justify-between items-center">
+<div className="md:flex justify-between">
    <Cards/>
    <Carts/>                                       
 </div>
