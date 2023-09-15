@@ -1,6 +1,6 @@
 
 import PropTypes from 'prop-types'
-const Carts = ({courseSelect}) => {
+const Carts = ({courseSelect, totalSum}) => {
 
 return (
 <div className="md:w-1/3 md:mx-10 border-2"> 
@@ -12,7 +12,7 @@ return (
  {courseSelect.map(items =><ul className='list-disc pl-4' key={items.id}> <li> {items.name} </li> </ul> )}         
 
 
- <p className='py-4 text-[#1c1b1b99]'> Total Credit Hour : 13 </p>
+ <p className='py-4 text-[#1c1b1b99]'> Total Credit Hour : {totalSum} hr </p>
 
 </div>
                                       
@@ -24,6 +24,7 @@ return (
 };
 
 Carts.propTypes = {
-courseSelect: PropTypes.array
+courseSelect: PropTypes.array,
+totalSum: PropTypes.func
 }
 export default Carts;

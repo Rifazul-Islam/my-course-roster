@@ -16,7 +16,7 @@ return (
       <p className="flex items-center"> <BsCurrencyDollar/>  <span className="text-[#1c1b1b99] pl-2"> Price: {price} </span></p>
       <p className="flex items-center">  <BiBookOpen/> <span className="ml-2 text-[#1c1b1b99]">Credit:{credit}hr</span></p>
    </div> 
-  <button onClick={()=>handlerAddToCourse(course,id)}  className="bg-[magenta] w-full h-8 hover:bg-blue-500 text-white rounded-lg"> Select </button>
+  <button onClick={()=>handlerAddToCourse(id,course)}  className="bg-[magenta] w-full h-8 hover:bg-blue-500 text-white rounded-lg"> Select </button>
 </div>             
 
 );
