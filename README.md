@@ -10,12 +10,12 @@
 
 
 # My Project Features
- "*" This project Course related.
- "*" Any button click course name add cart.
- "*" Select button click total Hours show in the cart.
+ - This project Course related.
+ - Any button click course name add cart.
+ - Select button click total Hours show in the cart.
 
 
- 
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
