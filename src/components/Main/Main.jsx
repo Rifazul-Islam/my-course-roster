@@ -23,7 +23,7 @@ const Main = () => {
       })
 
      if( sumHour  > 20){
-      return toast.error('your No hours')
+      return toast.error('your No Remaining hours')
      }else{
 
       let remaining = 20 - sumHour ;
