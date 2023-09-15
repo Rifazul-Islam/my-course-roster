@@ -7,25 +7,36 @@ const Main = () => {
 
  const[courseSelect,setCourseSelect] = useState([])
  const[totalSum,setTotalSum] = useState(0)
+ const[totalRemaining,setTotalRemaining] = useState(0)
 
 
  const handlerAddToCourse=(id,course)=>{
-  let count = course.credit ;
+  let sumHour = course.credit ;
    let isExit = courseSelect.find(item => item.id === id)
 
     if(isExit){
       return toast.error('Name is already Add')
     }else{
-      
       courseSelect.forEach(hour =>{
-      count = count + hour.credit;
+        sumHour  = sumHour  + hour.credit;
         
       })
 
+     if( sumHour  > 20){
+      return toast.error('your No hours')
+     }else{
 
-      setTotalSum(count)
-      setCourseSelect([...courseSelect,course])
-
+      let remaining = 20 - sumHour ;
+      
+      if(remaining < 0){
+        return toast.error('your Not allow ')
+      }else{
+     
+        setTotalSum(sumHour)
+        setTotalRemaining(remaining)
+        setCourseSelect([...courseSelect,course])
+      }
+     }
      }
  
  }
@@ -33,7 +44,7 @@ const Main = () => {
 return (
 <div className="md:flex justify-between">
    <Cards handlerAddToCourse={handlerAddToCourse} />
-   <Carts courseSelect={courseSelect} totalSum={totalSum} />                                       
+   <Carts courseSelect={courseSelect} totalSum={totalSum} totalRemaining={totalRemaining} />                                       
 </div>
 );
 };
