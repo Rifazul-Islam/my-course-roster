@@ -3,7 +3,7 @@
    "id": 1,
    "img": "https://i.ibb.co/C9FXhmv/Rectangle.png",
    "name": "Introduction to C Programming",
-   "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+   "description": "C Programming: A foundational language for software develope and system-level programming.",
    "price": 15000,
     "credit": 1
   },
@@ -11,7 +11,7 @@
    "id": 2,
    "img": "https://i.ibb.co/NnMS2nT/Rectangle-2-3.png",
    "name": "Introduction to Algorithms",
-   "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+   "description": "Introduction to Algorithms: Essential guide for solving complex problems.",
    "price": 25000,
     "credit": 2
   },
@@ -19,7 +19,7 @@
    "id": 3,
    "img": "https://i.ibb.co/QQdYhjf/Rectangle-2-4.png",
    "name": "Introduction to C++ for DSA",
-   "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+   "description": "Introduction to C++ for DSA: Bridging C++ skills with Data Structures and Algorithms.",
    "price": 10000,
     "credit": 10
   },
@@ -27,7 +27,7 @@
    "id": 4,
    "img": "https://i.ibb.co/51y8shw/Rectangle-3.png",
    "name": "Basic Data Structures",
-   "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+   "description": "Basic Data Structures: Fundamental tools for organizing and manipulating.",
    "price": 35000,
     "credit": 5
   },
@@ -35,7 +35,7 @@
    "id": 5,
    "img": "https://i.ibb.co/n7wwrWX/Rectangle-2.png",
    "name": "Introduction to OOP Python",
-   "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+   "description": "Introduction to OOP Python: Mastering object-oriented programming with Python's.",
    "price": 19000,
     "credit": 6
   },
@@ -43,7 +43,7 @@
    "id": 6,
    "img": "https://i.ibb.co/g71f2D2/Rectangle-2-5.png",
    "name": "Software Engineering",
-   "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+   "description": "Software Engineering: Systematic approach to designing, developing.",
    "price": 23000,
     "credit": 2
   },
@@ -51,7 +51,7 @@
    "id": 7,
    "img": "https://i.ibb.co/mNpKFB6/Rectangle-3-1.png",
    "name": "AWS, Cloud Computing",
-   "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+   "description": "AWS (Amazon Web Services) is a leading cloud computing platform providing a wide range.",
    "price": 35000,
     "credit": 5
   },
@@ -59,7 +59,7 @@
    "id": 8,
    "img": "https://i.ibb.co/1s9bKN6/Rectangle-2-1.png",
    "name": "Database (MySQL)",
-   "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+   "description": "MySQL is a popular open-source relational database management system used for.",
    "price": 19000,
     "credit": 3
   },
@@ -67,7 +67,7 @@
    "id": 9,
    "img": "https://i.ibb.co/DQ96HNx/Rectangle-2-6.png",
    "name": "Problem-Solving Part",
-   "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+   "description": "Problem-solving is a critical skill in various fields, involving the systematic process of finding.",
    "price": 24000,
     "credit": 2
   }

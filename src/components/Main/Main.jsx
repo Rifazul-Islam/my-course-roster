@@ -6,9 +6,8 @@ import toast from "react-hot-toast";
 const Main = () => {
 
  const[courseSelect,setCourseSelect] = useState([])
- const[totalSum,setTotalSum] = useState(0)
- const[totalRemaining,setTotalRemaining] = useState(0)
-
+ const[totalSum,setTotalSum] = useState(0);
+ const[totalRemaining,setTotalRemaining] = useState(0);
 
  const handlerAddToCourse=(id,course)=>{
   let sumHour = course.credit ;
@@ -25,20 +24,19 @@ const Main = () => {
      if( sumHour  > 20){
       return toast.error('your No Remaining hours')
      }else{
-
       let remaining = 20 - sumHour ;
-      
       if(remaining < 0){
         return toast.error('your Not allow ')
       }else{
-     
+      
         setTotalSum(sumHour)
         setTotalRemaining(remaining)
         setCourseSelect([...courseSelect,course])
       }
      }
      }
- 
+
+
  }
 
 return (

@@ -1,14 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
 # My Project Features
  - This project Course related.
  - Any button click course name add cart.
